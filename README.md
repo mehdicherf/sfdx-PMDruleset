@@ -6,3 +6,5 @@ This ruleset can be used in the CI setup or with the Apex PMD extension for VS c
 Recommended Thresholds:
 - Error = 2
 - Warn = 4
+
+Apex Rules are described here https://pmd.github.io/pmd-6.18.0/pmd_rules_apex.html
