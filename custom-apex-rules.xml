@@ -29,9 +29,6 @@
    <rule ref="category/apex/codestyle.xml/ClassNamingConventions" message="Class names should begin with an uppercase character">
       <priority>2</priority>
    </rule>
-   <rule ref="category/apex/codestyle.xml/VariableNamingConventions" message="{0} variable {1} should begin with {2}">
-      <priority>3</priority>
-   </rule>
    <rule ref="category/apex/codestyle.xml/ForLoopsMustUseBraces" message="Avoid using 'for' statements without curly braces">
       <priority>3</priority>
    </rule>
@@ -50,7 +47,7 @@
    <rule ref="category/apex/codestyle.xml/OneDeclarationPerLine">
       <priority>2</priority>
    </rule>
-   <rule ref="category/apex/codestyle.xml/LocalVariableNamingConventions" message="Property declarations should use camelCase">
+   <rule ref="category/apex/codestyle.xml/PropertyNamingConventions" message="Property declarations should use camelCase">
    	<priority>3</priority>
    </rule>
    <rule ref="category/apex/codestyle.xml/WhileLoopsMustUseBraces" message="Avoid using 'while' statements without curly braces">
