@@ -7,4 +7,4 @@ Recommended Thresholds:
 - Error = 2
 - Warn = 4
 
-Apex Rules are described here https://pmd.github.io/pmd-6.18.0/pmd_rules_apex.html
+Apex Rules are described here https://pmd.github.io/pmd-6.20.0/pmd_rules_apex.html
