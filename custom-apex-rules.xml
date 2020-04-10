@@ -123,6 +123,9 @@
    </rule>
 
    <!-- Error Prone -->
+   <rule ref="category/apex/errorprone.xml/ApexCSRF" message="Avoid making DML operations in Apex class constructor/init method">
+      <priority>1</priority>
+   </rule>
    <rule ref="category/apex/errorprone.xml/AvoidDirectAccessTriggerMap" message="Avoid directly accessing Trigger.old and Trigger.new">
       <priority>3</priority>
    </rule>
@@ -168,9 +171,6 @@
    </rule>
    <rule ref="category/apex/security.xml/ApexCRUDViolation" message="Validate CRUD permission before SOQL/DML operation">
       <priority>4</priority>
-   </rule>
-   <rule ref="category/apex/security.xml/ApexCSRF" message="Avoid making DML operations in Apex class constructor/init method">
-      <priority>1</priority>
    </rule>
    <rule ref="category/apex/security.xml/ApexDangerousMethods" message="Calling potentially dangerous method">
       <priority>1</priority>
